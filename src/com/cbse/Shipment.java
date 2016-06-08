@@ -7,7 +7,15 @@ import java.util.List;
  */
 public class Shipment {
 
+    public List<Product> getProducts() {
+        return products;
+    }
+
+    public void setProducts(List<Product> products) {
+        this.products = products;
+    }
+
     private ShipmentState shipmentState;
     private Address address;
-    public List<Product> products;
+    private List<Product> products;
 }

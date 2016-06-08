@@ -8,9 +8,41 @@ import java.util.List;
 public class Customer {
     //  Data type
 
-    public String name;
-    public Boolean approved;
+    private String name;
+    private Boolean approved;
     private Address address;
-    public List<Payment> payments;
+    private List<Payment> payments;
+    private List<Order> orders;
 
+    public List<Order> getOrders() {
+        return orders;
+    }
+
+    public void setOrders(List<Order> orders) {
+        this.orders = orders;
+    }
+
+    public Boolean getApproved() {
+        return approved;
+    }
+
+    public void setApproved(Boolean approved) {
+        this.approved = approved;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public List<Payment> getPayments() {
+        return payments;
+    }
+
+    public void setPayments(List<Payment> payments) {
+        this.payments = payments;
+    }
 }

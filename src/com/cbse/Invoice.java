@@ -9,5 +9,14 @@ import java.util.Date;
 public class Invoice {
     //  Data type
 
-    public LocalDateTime date;  //  or whatever type of "DateTime"
+    private LocalDateTime date;  //  or whatever type of "DateTime"
+
+    public LocalDateTime getDate() {
+        return date;
+    }
+
+    public void setDate(LocalDateTime date) {
+        this.date = date;
+    }
+
 }

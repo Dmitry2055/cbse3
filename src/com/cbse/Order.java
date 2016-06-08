@@ -6,5 +6,13 @@ package com.cbse;
 public class Order {
     private Process process;
     private Shipment shipment;
-    public Invoice invoice;
+    private Invoice invoice;
+
+    public Invoice getInvoice() {
+        return invoice;
+    }
+
+    public void setInvoice(Invoice invoice) {
+        this.invoice = invoice;
+    }
 }

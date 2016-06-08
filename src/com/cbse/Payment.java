@@ -8,6 +8,22 @@ import java.time.LocalDateTime;
 public class Payment {
     //  Data type
 
-    public LocalDateTime date;  //  or whatever type of "DateTime"
-    public Double amount;
+    private LocalDateTime date;  //  or whatever type of "DateTime"
+    private Double amount;
+
+    public LocalDateTime getDate() {
+        return date;
+    }
+
+    public void setDate(LocalDateTime date) {
+        this.date = date;
+    }
+
+    public Double getAmount() {
+        return amount;
+    }
+
+    public void setAmount(Double amount) {
+        this.amount = amount;
+    }
 }
