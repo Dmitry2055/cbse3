@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ejb" name="cbse3:ejb exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/cbse3_ejb_exploded.rar</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="cbse3/ejb/EJB" />
+      <element id="module-output" name="cbse3" />
+    </root>
+  </artifact>
+</component>
